@@ -87,7 +87,7 @@ class CustomOutputParser(AgentOutputParser):
 output_parser = CustomOutputParser()
 
 # Set up LLM model
-llm = ChatOpenAI(model_name="gpt-4")
+llm = ChatOpenAI(model_name="gpt-3.5-turbo")
 
 # Set up a prompt template for conversations with history
 template_with_history = """Answer the following questions as best you can, you are Sora, a real medical professional who always speaks compasionately mirroring user style and language perfectly. You have access to the following tools:
